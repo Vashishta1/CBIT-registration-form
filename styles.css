@@ -1,0 +1,203 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+header {
+    background-color: #0A4B5B;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo {
+    width: 100px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 18px;
+}
+
+
+.about {
+    padding: 40px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.about h1 {
+    margin-bottom: 20px;
+}
+
+.about p {
+    margin: 15px 0;
+}
+
+.about-img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+
+.registration-form {
+    padding: 40px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.registration-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group input,
+.form-group select,
+.form-group button,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.form-group button {
+    background-color: #0A4B5B;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-group button:hover {
+    background-color: #0A3B4B;
+}
+
+
+.success-message {
+    text-align: center;
+    background-color: #d4edda;
+    padding: 20px;
+    border-radius: 8px;
+    color: #155724;
+    margin-top: 20px;
+}
+
+
+.contact-us {
+    background-color: #fff;
+    padding: 40px;
+    text-align: center;
+}
+
+.contact-us h2 {
+    margin-bottom: 20px;
+}
+
+.contact-us address {
+    font-style: normal;
+    margin-top: 20px;
+}
+
+
+.login-form {
+    background-color: #f8f9fa;
+    padding: 50px 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.form-group button {
+    background-color: #0A4B5B;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-group button:hover {
+    background-color: #0A3B4B;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #0A4B5B;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+@media (max-width: 768px) {
+    .registration-form, .contact-us, .about, .login-form {
+        padding: 20px;
+    }
+
+    header {
+        text-align: left;
+    }
+
+    nav ul li {
+        display: block;
+        text-align: left;
+    }
+
+    .form-group input,
+    .form-group select,
+    .form-group button {
+        width: 100%;
+    }
+}
